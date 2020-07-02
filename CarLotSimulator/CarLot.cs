@@ -5,12 +5,10 @@ using System.Text;
 
 namespace CarLotSimulator
 {
-    public class CarLot
+    public static class CarLot
     {
-        public CarLot()
-        {
-            Cars = new List<Car>();
-        }
-        public List<Car> Cars { get; set; }
+
+        public static List<Car> Cars = new List<Car>();
+        public static int numberOfCars = 0;
     }
 }
